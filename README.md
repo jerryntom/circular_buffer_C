@@ -1,2 +1,2 @@
 # circular_buffer_C
-Keyboard-like buffer
+Buffer similar to the one used for keyboard
