@@ -2,8 +2,8 @@
 // Created by nazyw on 3/17/2023.
 //
 
-#ifndef DANTE_ETC_CIRCULAR_BUFFER_H
-#define DANTE_ETC_CIRCULAR_BUFFER_H
+#ifndef PROJECT_C_CIRCULAR_BUFFER_H
+#define PROJECT_C_CIRCULAR_BUFFER_H
 
 struct circular_buffer_t {
     int *ptr;
@@ -28,4 +28,4 @@ int circular_buffer_full(const struct circular_buffer_t *a);
 
 void circular_buffer_display(const struct circular_buffer_t *a);
 
-#endif //DANTE_ETC_CIRCULAR_BUFFER_H
+#endif //PROJECT_C_CIRCULAR_BUFFER_H
